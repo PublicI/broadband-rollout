@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS deployment_2012 (
 	downloadspeed text,
 	uploadspeed text,
 	provider_type text,
-	end_user_cat text,
+	end_user_cat text
 );
 
 TRUNCATE deployment_2012;
