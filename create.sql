@@ -44,6 +44,8 @@ TRUNCATE deployment_2014;
 
 CREATE TABLE IF NOT EXISTS deployment_2012 (
 	objectid text,
+	random_pt_objectid text,
+	datasource text,
 	frn text,
 	provname text,
 	dbaname text,
@@ -51,6 +53,7 @@ CREATE TABLE IF NOT EXISTS deployment_2012 (
 	hoconame text,
 	stateabbr text,
 	fullfipsid text,
+	county_fips text,
 	transtech text,
 	maxaddown text,
 	maxadup text,
@@ -59,7 +62,7 @@ CREATE TABLE IF NOT EXISTS deployment_2012 (
 	downloadspeed text,
 	uploadspeed text,
 	provider_type text,
-	end_user_cat text
+	end_user_cat text,
 );
 
 TRUNCATE deployment_2012;
